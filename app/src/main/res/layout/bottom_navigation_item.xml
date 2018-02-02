@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height"
+    android:background="@color/colorPrimary"
+    android:minWidth="@dimen/min_width"
+    android:paddingLeft="@dimen/padding_left"
+    android:paddingRight="@dimen/padding_right">
+
+
+    <ImageView
+        android:id="@+id/bottom_navigation_item_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/bottom_navigation_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginTop="@dimen/margin_top_inactive"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="#747474"
+        android:textSize="@dimen/text_size_inactive"
+        tools:text="Label One"/>
+
+    <TextView
+        android:id="@+id/bottom_navigation_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/notification_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/notification_margin_left"
+        android:layout_marginTop="@dimen/notification_margin_top_classic"
+        android:alpha="0"
+        android:background="@color/colorAccent"
+        android:elevation="@dimen/notification_elevation"
+        android:gravity="center"
+        android:minWidth="@dimen/notification_width"
+        android:paddingLeft="@dimen/notification_padding"
+        android:paddingRight="@dimen/notification_padding"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/notification_text_size"
+        android:textStyle="bold"/>
+
+
+</FrameLayout>

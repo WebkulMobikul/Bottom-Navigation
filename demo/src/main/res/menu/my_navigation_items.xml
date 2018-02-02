@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_vector_home"
+        android:title="home" />
+
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/ic_menu_cart"
+        android:title="cart" />
+
+    <item
+        android:id="@+id/wishlist"
+        android:enabled="true"
+        android:icon="@drawable/ic_vector_wishlish_grey"
+        android:title="Wishlist"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Wishlist" />
+
+    <item
+        android:id="@+id/grid"
+        android:icon="@drawable/ic_bag"
+        android:title="Wishlist" />
+</menu>
